@@ -10,6 +10,7 @@
 		A82AA2DE1909C9550097C445 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A82AA2DD1909C9550097C445 /* Foundation.framework */; };
 		A82AA2E11909C9550097C445 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A82AA2E01909C9550097C445 /* main.m */; };
 		A82AA2E51909C9550097C445 /* Hello_World_CoLearning.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = A82AA2E41909C9550097C445 /* Hello_World_CoLearning.1 */; };
+		A82AA2ED1909CF610097C445 /* console.m in Sources */ = {isa = PBXBuildFile; fileRef = A82AA2EC1909CF610097C445 /* console.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		A82AA2E01909C9550097C445 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A82AA2E31909C9550097C445 /* Hello World CoLearning-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hello World CoLearning-Prefix.pch"; sourceTree = "<group>"; };
 		A82AA2E41909C9550097C445 /* Hello_World_CoLearning.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Hello_World_CoLearning.1; sourceTree = "<group>"; };
+		A82AA2EB1909CF560097C445 /* console.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = console.h; sourceTree = "<group>"; };
+		A82AA2EC1909CF610097C445 /* console.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = console.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				A82AA2E01909C9550097C445 /* main.m */,
+				A82AA2EB1909CF560097C445 /* console.h */,
+				A82AA2EC1909CF610097C445 /* console.m */,
 				A82AA2E41909C9550097C445 /* Hello_World_CoLearning.1 */,
 				A82AA2E21909C9550097C445 /* Supporting Files */,
 			);
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A82AA2E11909C9550097C445 /* main.m in Sources */,
+				A82AA2ED1909CF610097C445 /* console.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
