@@ -16,10 +16,17 @@ int main(int argc, const char * argv[])
     @autoreleasepool {
         
         // insert code here...
-        int value = getIntegerFromConsole(@"Enter a value and I will give you your Sine:");
-        float answer = sin(value);
-        NSLog(@"the sin of %i is %f", value, answer);
+        int f = getIntegerFromConsole(@"Enter the value:");
         
+        if (f <= 10) {
+            NSLog (@"This is a small number");
+        }
+        else if (f >= 100) {
+            NSLog (@"This is a large number");
+        }
+        else if (f > 10 && f < 100) {
+            NSLog (@"This is a medium number");
+        }
     }
     return 0;
 }
